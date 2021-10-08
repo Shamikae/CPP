@@ -8,6 +8,23 @@ When the individual object is created they inherit all the variables and functio
 
 example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.
 Attributes and methods are basically variables and functions that belongs to the class. These are often referred to as "class members".
+
+Note: You access methods just like you access attributes; by creating an object of the class and using the dot syntax (.)
+Methods are functions that belongs to the class.
+
+There are two ways to define functions that belong to a class:
+    Inside class definition
+    Outside class definition
+To define a function outside the class definition, you have to declare it inside the class and then define it outside of the class. This is done by specifiying the name of the class, followed the scope resolution :: operator, followed by the name of the function:
+
+A constructor in C++ is a special method that is automatically called when an object of a class is created.
+
+To create a constructor, use the same name as the class, followed by()
+Note: The constructor has the same name as the class, it is always public, and it does not have any return value.
+
+Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution :: operator, followed by the name of the constructor (which is the same as the class):
+
+
 */
 
 class MyClass {
