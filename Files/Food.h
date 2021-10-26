@@ -1,0 +1,1 @@
+const char* recomendMeAFood(char firstLetter);//function declaration
